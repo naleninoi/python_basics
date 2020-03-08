@@ -1,0 +1,5 @@
+this is a test string
+это пробная строка
+this is another test string
+это четвертая пробная строка
+всего 5 (пять) строк
