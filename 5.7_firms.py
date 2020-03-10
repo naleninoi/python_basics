@@ -33,5 +33,5 @@ average_profit = {'Средняя прибыль': av_profit}
 export_list = [firms, average_profit]
 print(export_list)
 with open('file5_7exp.json', 'w', encoding='utf-8') as output_json:
-    json.dump(export_list, output_json)
+    json.dump(export_list, output_json, ensure_ascii=False, indent=4)
 print(f'успешный экспорт в файл {output_json.name}')
